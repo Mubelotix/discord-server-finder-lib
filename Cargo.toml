@@ -1,6 +1,6 @@
 [package]
 name = "discord-finder"
-version = "0.1.0"
+version = "0.1.1"
 license = "MIT"
 description = "A very small crate you can use to get discord.gg's server links."
 authors = ["Mubelotix <mubelotix@gmail.com>"]

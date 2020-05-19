@@ -12,7 +12,7 @@ You can parse a discord invitation page with the Invite struct.
 use discord_finder::*;
 
 for page in 0..4 {
-    for link in discord::search(page).unwrap() {
+    for link in google::search(page).unwrap() {
         println!("resolving {}", link);
         for invite_link in intermediary::resolve(&link).unwrap() {
             println!("invite link found: {}", invite_link);
